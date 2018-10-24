@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# adamID=$( cat /Users/ericjohnson/Documents/Scripting/CPS/checkAdamID/input_app_ids_unique.txt )
 echo "Input the absolute path to the input file:"
 read adamIDInput
 adamID=$( cat "$adamIDInput" )
